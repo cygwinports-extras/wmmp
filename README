@@ -1,0 +1,65 @@
+wmmp
+------------------------------------------
+A NeXTSTEP dockapplet for the Music Player Daemon.
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  libX11_6-1.1.5-2
+  libXext6-1.0.4-1
+  libXpm4-3.5.7-2
+  mpd-0.14.2-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-1
+  automake1.7-1.7.9-4
+  binutils-20080624-2
+  cygport-0.4.2-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://mpd.wikia.com/wiki/Client:WMmp
+
+Canonical download:
+  http://downloads.sourceforge.net/musicpd/
+
+-------------------------------------------
+
+Build instructions:
+  unpack wmmp-0.10.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./wmmp-0.10.0-X.cygport all
+
+This will create:
+  /usr/src/wmmp-0.10.0-X-src.tar.bz2
+  /usr/src/wmmp-0.10.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/WMmp.exe
+  /usr/share/doc/wmmp-0.10.0/AUTHORS
+  /usr/share/doc/wmmp-0.10.0/COPYING
+  /usr/share/doc/wmmp-0.10.0/ChangeLog
+  /usr/share/doc/wmmp-0.10.0/INSTALL
+  /usr/share/doc/wmmp-0.10.0/README
+  /usr/share/doc/wmmp-0.10.0/THANKS
+  /usr/share/doc/wmmp-0.10.0/TODO
+  /usr/share/man/man1/WMmp.1.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.10.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

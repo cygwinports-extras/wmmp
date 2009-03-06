@@ -1,0 +1,25 @@
+--- origsrc/WMmp-0.10.0/configure.ac	2004-03-02 06:51:13.000000000 -0600
++++ src/WMmp-0.10.0/configure.ac	2009-03-06 03:39:35.228125000 -0600
+@@ -125,6 +125,9 @@ openbsd*)
+ solaris*)
+   OS=solaris
+   ;;
++cygwin*)
++  OS=cygwin
++  ;;
+ *)
+   echo ""
+   echo "Sorry, ${host_os} is not supported yet"
+--- origsrc/WMmp-0.10.0/src/libmpdclient.c	2004-03-02 06:51:09.000000000 -0600
++++ src/WMmp-0.10.0/src/libmpdclient.c	2009-03-06 03:43:34.384375000 -0600
+@@ -37,6 +37,10 @@
+ #endif
+ #endif
+ 
++#ifndef MSG_DONTWAIT
++#define MSG_DONTWAIT 0
++#endif
++
+ #ifdef MPD_HAVE_IPV6        
+ int mpd_ipv6Supported() {
+         int s;          
