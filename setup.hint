@@ -1,4 +1,4 @@
 category: Audio X11
-requires: cygwin libX11_6 libXext6 libXpm4 mpd
+requires: libX11_6 libXext6 libXpm4 mpd
 sdesc: "NeXTSTEP dockapplet for MPD"
 ldesc: "A NeXTSTEP dockapplet for the Music Player Daemon."
