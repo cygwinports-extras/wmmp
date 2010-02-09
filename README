@@ -3,21 +3,22 @@ wmmp
 A NeXTSTEP dockapplet for the Music Player Daemon.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libX11_6-1.1.5-2
-  libXext6-1.0.4-1
-  libXpm4-3.5.7-2
-  mpd-0.14.2-1
+  cygwin-1.7.1-1
+  libgcc1-4.3.4-3
+  libX11_6-1.3.2-2
+  libXext6-1.1.1-1
+  libXpm4-3.5.8-1
+  mpd-0.15.8-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.7-1.7.9-4
-  binutils-20080624-2
-  cygport-0.4.2-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  make-3.81-1
+  autoconf2.5-2.65-1
+  automake1.7-1.7.9-10
+  binutils-2.19.51-1
+  cygport-0.9.80-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-3
+  make-3.81-2
   sed-4.1.5-2
 
 Canonical website:
@@ -41,24 +42,10 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/bin/WMmp.exe
-  /usr/share/doc/wmmp-0.10.0/AUTHORS
-  /usr/share/doc/wmmp-0.10.0/COPYING
-  /usr/share/doc/wmmp-0.10.0/ChangeLog
-  /usr/share/doc/wmmp-0.10.0/INSTALL
-  /usr/share/doc/wmmp-0.10.0/README
-  /usr/share/doc/wmmp-0.10.0/THANKS
-  /usr/share/doc/wmmp-0.10.0/TODO
-  /usr/share/man/man1/WMmp.1.gz
-
-------------------
-
 Port Notes:
 
------ version 0.10.0-1 -----
-Initial release for Cygwin.
+----- version 0.10.0-2 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
