@@ -1,8 +1,0 @@
-DESCRIPTION="NeXTSTEP dock applet for MPD"
-HOMEPAGE="http://mpd.wikia.com/wiki/Client:WMmp"
-SRC_URI="mirror://sourceforge/musicpd/WMmp-${PV}.tar.gz"
-SRC_DIR="WMmp-${PV}"
-
-PATCH_URI="0.10.0-cygwin.patch"
-
-CYGCONF_ARGS="--with-default-port=6600"

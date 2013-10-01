@@ -1,0 +1,14 @@
+NAME="wmmp"
+VERSION=0.10.0
+RELEASE=2
+CATEGORY="Audio"
+SUMMARY="NeXTSTEP dockapplet for MPD"
+DESCRIPTION="A NeXTSTEP dockapplet for the Music Player Daemon."
+REQUIRES="mpd"
+HOMEPAGE="http://mpd.wikia.com/wiki/Client:WMmp"
+SRC_URI="mirror://sourceforge/musicpd/WMmp-${VERSION}.tar.gz"
+SRC_DIR="WMmp-${VERSION}"
+
+PATCH_URI="0.10.0-cygwin.patch"
+
+CYGCONF_ARGS="--with-default-port=6600"
